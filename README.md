@@ -47,4 +47,4 @@ docker start <container_name>
 docker exec -it <container_name> bash
 ```
 
-NOTE: <container_name> and <terminal_username> are expected to be renamed with the desired names.
+NOTE: <any_text> is expected to be renamed with the desired name.
