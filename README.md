@@ -38,7 +38,7 @@ docker run -d \
   -e DISPLAY=:0 \
   --gpus all \
   --env DISPLAY=:0 \
-  humble/px4-setup
+  <image_name>
 ```
 
 Following commands can be used to start and execute the container,
