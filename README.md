@@ -10,19 +10,20 @@ Link is here - [OneDrive Link](https://cciitpatna-my.sharepoint.com/:f:/g/person
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
 - [Testing](#testing)
-- [License](#license)
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
+- Ubuntu (Dual Booted Setup)
 - **Docker Installation**: [Installation guide](https://docs.docker.com/engine/install/ubuntu/)
 - **Super User Permission**: [Setting SUDO](https://docs.docker.com/engine/install/linux-postinstall/)
 
 ## Installation
 
-First download the desired image .tar file from the link provided
+Download the desired image .tar file from the link provided.
+
+## Setup Instructions
 
 Since the docker has been installed, enter:
 ```bash
@@ -48,3 +49,28 @@ docker exec -it <container_name> bash
 ```
 
 NOTE: <any_text> is expected to be renamed with the desired name.
+
+To enable GUI Permission from host, outside docker type;
+```bash
+xhost +local:
+```
+
+## Testing
+
+Clear the build files inside firmware and build again.
+```bash
+ls
+```
+
+This location is preferred location for building all packages. To clean existing build file.
+```bash
+cd PX4-Autopilot
+make clean
+make <px4_command> <gazebo_command>
+```
+
+NOTE - <px4_command> <gazebo_command> will change whether you are using ROS1 or ROS2.
+For Humble Setup,
+```bash
+make px4_sitl gz_x500
+```
