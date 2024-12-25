@@ -1,8 +1,10 @@
 # PX4 Humble Setup
 
 _Smart People Makes Mistakes & Learn from them_
-Here is PX4 Autopilot Docker Image with ROS2 Desktop + Dev, PX4 Firmware, VS Code (code) and Geddit installed. This link contains access to MPC + INDI (Under Work), Geometric Controller (Under Work) and PID Controller (Working) method for *Controlling Drone with Single Motor Failure*
-[text](https://cciitpatna-my.sharepoint.com/:f:/g/personal/rna_iitp_ac_in/Et0g3G1f9bpKguhR8y3V2wYBTXDJ9vnErMwq8Y9xCrkqlA?e=b6h8W7)
+Here is PX4 Autopilot Docker Image with ROS2 Desktop + Dev, PX4 Firmware, VS Code (code) and Geddit installed. This link contains access to MPC + INDI (Under Work), Geometric Controller (Under Work) and PID Controller (Working) method for *Controlling Drone with Single Motor Failure*.
+
+Link is here - [text](https://cciitpatna-my.sharepoint.com/:f:/g/personal/rna_iitp_ac_in/Et0g3G1f9bpKguhR8y3V2wYBTXDJ9vnErMwq8Y9xCrkqlA?e=b6h8W7)
+TO Access - Mail to RnA with College Email ID to get password credentials.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
