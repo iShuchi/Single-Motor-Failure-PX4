@@ -1,4 +1,4 @@
-# PX4 Humble Setup
+# PX4 Firmware Docker Setup for One Motor Failure
 
 _Smart People Makes Mistakes & Learn from them_
 Here is PX4 Autopilot Docker Image with ROS2 Desktop + Dev, PX4 Firmware, VS Code (code) and Geddit installed. This link contains access to MPC + INDI Controller (Under Work), Geometric Controller (Under Work) and PID Controller (Working) method for *Controlling Drone with Single Motor Failure*. These solutions are confidential and only for use of college purposes.
