@@ -21,7 +21,6 @@ Before you begin, ensure you have the following installed:
 ## Installation
 
 First download the desired image .tar file from the link provided
-```
 
 Since the docker has been installed, enter:
 ```bash
